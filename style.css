@@ -1,0 +1,86 @@
+.homepage {
+    width: 100%;
+    min-height: calc(100vh - 56px);
+    height: fit-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(./img/IMG_3017.JPG);
+    background-size: cover;
+    color: #FAF9F6;
+}
+
+.hometext {
+  height: fit-content;
+}
+
+.edupage {
+  width: 100%;
+  min-height: calc(100vh - 56px);
+  height: fit-content;
+  /* background-color: #282828; */
+  background-image: linear-gradient(#282828, #616161);
+}
+
+.workpage {
+  width: 100%;
+  min-height: calc(100vh - 56px);
+  height: fit-content;
+  /* background-color: #616161; */
+  background-image: linear-gradient(#616161, #FAF9F6);
+}
+
+.contactpage {
+  width: 100%;
+  height: calc(100vh - 56px);
+  background-color: #FAF9F6;
+}
+
+
+.scrollspy-example {
+  height: calc(100vh - 56px);
+  overflow-y: scroll;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link.active {
+  color: #606060 !important;
+}
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+.text-offwhite {
+  color: hsl(0, 0%, 90%);
+}
+
+.edu-card {
+  height: 150px !important;
+  background-color: gold !important;
+  color: maroon !important;
+}
+
+.portfolio-link{
+  color: maroon;
+}
