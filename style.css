@@ -1,6 +1,6 @@
 .homepage {
     width: 100%;
-    min-height: calc(100vh - 56px);
+    min-height: calc(100dvh - 56px);
     height: fit-content;
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(./img/IMG_3017.JPG);
     background-size: cover;
